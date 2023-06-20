@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Rubik+Vinyl&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Playfair+Display:wght@600&family=Rubik+Vinyl&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    background-color: #62f8a3;
+}
+header{ 
+    background-image: linear-gradient(to right, #03A64A,#038C3E,#025928);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 20px;
+    
+}
+header h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+header p{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+
+}
+nav{
+    background-color: #042914;
+    box-shadow: 10px 10px 10px;
+    text-align: center;
+    
+}
+nav a{
+    border-style: solid, black;
+    text-decoration: none;
+    background-color: #042914;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    
+    
+}
+nav a:hover{
+    transition-duration: 0.2s;
+    background-color: brown;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    box-shadow:-2px 12px 17px 2px;
+}
+main h2{
+    background-image: linear-gradient(to right, #03A64A, transparent );
+    text-align: center;
+}
+main > p{
+    text-align:center;
+    padding-bottom: 15px;
+}
+main  img{
+    max-width: 1000px;
+    min-width: 600;
+    display: block;
+    margin: auto;
+    
+}
+article > p{
+    font-family: 'Itim', cursive;
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 1.3em;
+}
+aside h3{
+    background-image: linear-gradient(to right, #03A64A, transparent );
+    text-align: center;
+}
+aside ul{
+    padding-bottom: 10px;
+    columns: 2;
+    text-align: center;
+}
+aside li{
+    list-style-position: inside;
+    list-style-type: '📲';
+    
+}
+aside li >a{
+    text-decoration: none;
+    color: black;  
+}
+aside li >a:hover{
+    background-color:rgba(155, 216, 163, 0.795) ;
+}
+footer{
+    background-color: #038C3E;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    background-color: #03A64A;
+    color: black;
+}

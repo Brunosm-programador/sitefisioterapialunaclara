@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= DM+Serif+Display & family= Itim & família= Josefin+Sans &family= Rubik+Vinil & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    background-color: #62f8a3;
+}
+header{
+    background-image: linear-gradient(to right, #03A64A,#038C3E,#025928);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+nav{
+    background-color: #042914;
+    box-shadow: 10px 10px 10px;
+    text-align: center;
+    
+}
+nav a{
+    border-style: solid, black;
+    text-decoration: none;
+    background-color: #042914;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    
+    
+}
+nav a:hover{
+    transition-duration: 0.2s;
+    background-color: brown;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    box-shadow:-2px 12px 17px 2px;
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 1.3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main h2{
+    text-align: center;
+    background-image: linear-gradient(to right, #03A64A,#4dad77,#82af95);
+
+}
+main h3{
+    text-align: center;
+    background-image: linear-gradient(to right, #03A64A,#4dad77,#82af95);
+}
+main li{
+    list-style-position: inside;
+}
+footer{
+    background-color: #038C3E;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    background-color: #03A64A;
+    color: black;
+}

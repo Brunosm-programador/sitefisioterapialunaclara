@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    background-color: #62f8a3;
+}
+header{
+    background-image: linear-gradient(to right, #03A64A,#038C3E,#025928);
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    background-color: #042914;
+    box-shadow: 10px 10px 10px;
+    text-align: center;
+    
+}
+nav a{
+    border-style: solid, black;
+    text-decoration: none;
+    background-color: #042914;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    
+    
+}
+nav a:hover{
+    transition-duration: 0.2s;
+    background-color: brown;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    box-shadow:-2px 12px 17px 2px;
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 1.3em;
+}
+main h1{
+    background-image: linear-gradient(to right, #03A64A,#038C3E,#025928);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+main h2{
+    background-image: linear-gradient(to right, #03A64A,#4dad77,#82af95);
+    text-align: center;
+}
+main h3{
+    background-image: linear-gradient(to right, #03A64A,#4dad77,#82af95);
+    text-align: center;
+}
+main h4{
+    background-image: linear-gradient(to right, #03A64A,#4dad77,#82af95);
+    text-align: center;
+}
+main li{
+    list-style-position: inside;
+}
+main img{
+    margin: auto;
+    display: block;
+    margin-top: 2px;
+}
+p.img{
+    text-align:center;
+}
+footer{
+    background-color: #038C3E;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    background-color: #03A64A;
+    color: black;
+}
